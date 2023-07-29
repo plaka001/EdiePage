@@ -807,6 +807,10 @@ footer {
     width: 50%;
   }
 
+  .clients-s1 {
+    flex-direction: row;
+  }
+
   .collage {
     width: 50%;
   }
@@ -824,6 +828,7 @@ footer {
   /*#region  footer */
 
   .footer-header {
+    flex-direction: row;
     padding: 2rem;
     justify-content: space-between;
   }
@@ -950,6 +955,9 @@ footer {
   .collage {
     width: 40%;
   }
+  .clients-s1 {
+    flex-direction: row;
+  }
 
   .clients-description-2 {
     width: 42%;
@@ -965,6 +973,7 @@ footer {
 
   .footer-header {
     padding: 2rem;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 
