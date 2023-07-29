@@ -44,6 +44,7 @@ input:hover {
 }
 
 body {
+  scroll-behavior: smooth;
   background-color: var(--white-1);
 }
 
