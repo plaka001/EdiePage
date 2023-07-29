@@ -34,23 +34,23 @@
     </header>
     <main>
       <section class="home" id="home">
-        <h3 class="home-tittle1">Unhappy with your website?</h3>
-        <h1 class="home-tittle2">
+        <h3 class="home-tittle1 space">Unhappy with your website?</h3>
+        <h1 class="home-tittle2 space">
           We create beautiful <br />
           and fast web services
         </h1>
         <img src="assets/heroImage.jpg" alt="team photo" class="home-image" />
-        <h2 class="home-tittle3">
+        <h2 class="home-tittle3 space">
           Story, emotion <br />
           and purpose
         </h2>
-        <p class="home-description">
+        <p class="home-description space">
           We help transform your ideas into real world applications that will
           outperform your toughest competition and help you achieve your
           strategic goals in short period of time.
         </p>
-        <span class="home-span">Want us to contact you?</span>
-        <div class="input-join">
+        <span class="home-span space">Want us to contact you?</span>
+        <div class="input-join space">
           <input type="text" placeholder="Email" />
           <button>Join</button>
         </div>
@@ -150,41 +150,43 @@
       </section>
       <section class="ourworks" id="OurWorks">
         <h1 class="ourworks-tittle">Good design means <br />good business</h1>
-        <div class="ourworks-item">
-          <img
-            src="assets/smarthome.jpg"
-            alt="photo works"
-            class="ourworks-img"
-          />
-          <span class="ourworks-span1">Full stack application</span>
-          <span class="ourworks-span2">Smart home dashboard</span>
-        </div>
-        <div class="ourworks-item">
-          <img
-            src="assets/onboard.png"
-            alt="photo works"
-            class="ourworks-img"
-          />
-          <span class="ourworks-span1">UX/UI design</span>
-          <span class="ourworks-span2">Onboard application</span>
-        </div>
-        <div class="ourworks-item">
-          <img
-            src="assets/booking.png"
-            alt="photo works"
-            class="ourworks-img"
-          />
-          <span class="ourworks-span1">Mobile application</span>
-          <span class="ourworks-span2">Booking system</span>
-        </div>
-        <div class="ourworks-item">
-          <img
-            src="assets/juice-product.png"
-            alt="photo works"
-            class="ourworks-img"
-          />
-          <span class="ourworks-span1">Front End applicati on</span>
-          <span class="ourworks-span2">Juice product homepage</span>
+        <div class="ourworkslist">
+          <div class="ourworks-item">
+            <img
+              src="assets/smarthome.jpg"
+              alt="photo works"
+              class="ourworks-img"
+            />
+            <span class="ourworks-span1">Full stack application</span>
+            <span class="ourworks-span2">Smart home dashboard</span>
+          </div>
+          <div class="ourworks-item">
+            <img
+              src="assets/onboard.png"
+              alt="photo works"
+              class="ourworks-img"
+            />
+            <span class="ourworks-span1">UX/UI design</span>
+            <span class="ourworks-span2">Onboard application</span>
+          </div>
+          <div class="ourworks-item">
+            <img
+              src="assets/booking.png"
+              alt="photo works"
+              class="ourworks-img"
+            />
+            <span class="ourworks-span1">Mobile application</span>
+            <span class="ourworks-span2">Booking system</span>
+          </div>
+          <div class="ourworks-item">
+            <img
+              src="assets/juice-product.png"
+              alt="photo works"
+              class="ourworks-img"
+            />
+            <span class="ourworks-span1">Front End applicati on</span>
+            <span class="ourworks-span2">Juice product homepage</span>
+          </div>
         </div>
         <div class="seemore">
           <span>see more</span>
@@ -210,19 +212,29 @@
         </div>
       </section>
       <section class="clients" id="clients">
-        <h3 class="clients-tittle1">Meet the team</h3>
-        <h1 class="clients-tittle2">
-          We are chilled <br />and a laidback <br />
-          team
-        </h1>
-        <p class="clients-description">
-          Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
-        </p>
-        <div class="collage">
-          <img src="assets/person3.png" alt="person photo" class="collage-s1" />
-          <div class="collage-s2">
-            <img src="assets/person1.png" alt="" class="collage-s2-1" />
-            <img src="assets/person2.png" alt="" class="collage-s2-2" />
+        <div class="clients-s1">
+          <div class="clients-header">
+            <h3 class="clients-tittle1">Meet the team</h3>
+            <h1 class="clients-tittle2">
+              We are chilled <br />and a laidback <br />
+              team
+            </h1>
+            <p class="clients-description">
+              Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="collage">
+            <div class="collage-s1">
+              <img
+                src="assets/person3.png"
+                alt="person photo"
+                class="collage-s1-1"
+              />
+            </div>
+            <div class="collage-s2">
+              <img src="assets/person1.png" alt="" class="collage-s2-1" />
+              <img src="assets/person2.png" alt="" class="collage-s2-2" />
+            </div>
           </div>
         </div>
         <p class="clients-description-2">
@@ -237,84 +249,87 @@
           </div>
         </div>
       </section>
+      <button id="btnScrollToTop" title="Ir arriba">&#8679;</button>
     </main>
     <script src="main.js"></script>
   </body>
   <footer id="contact">
-    <ul class="listmenu">
-      <a href="#home"><li>Home</li></a>
-      <a href="#services"><li>Services</li></a>
-      <a href="#ourworks"><li>Our Works</li></a>
-      <a href="#clients"><li>Clients</li></a>
-      <a href="#contact"><li>Contact</li></a>
-    </ul>
-    <div class="socialmedia">
-      <span class="footer-span-media">Edie</span>
-      <div class="footer-redsocial">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_1_114)">
-            <path
-              d="M23.0949 1.9064C22.4907 1.30204 21.7667 1 20.9232 1H3.07927C2.23548 1 1.51165 1.30215 0.907295 1.9064C0.303048 2.51048 0.00100708 3.23442 0.00100708 4.07804V21.9218C0.00100708 22.7653 0.302994 23.4894 0.907295 24.0935C1.51165 24.6977 2.23564 25 3.07927 25H20.923C21.7663 25 22.4906 24.6977 23.0948 24.0935C23.6991 23.4894 24.0009 22.7653 24.0009 21.9218V4.07804C24.0008 3.23425 23.6991 2.5107 23.0949 1.9064ZM8.61846 9.64832C9.56109 8.737 10.6939 8.28112 12.0169 8.28112C13.35 8.28112 14.488 8.737 15.4308 9.64832C16.3737 10.5598 16.8448 11.6615 16.8448 12.9531C16.8448 14.2446 16.3737 15.3463 15.4308 16.2575C14.488 17.1692 13.3504 17.625 12.0169 17.625C10.694 17.625 9.56125 17.1688 8.61846 16.2575C7.67561 15.3462 7.20425 14.2446 7.20425 12.9531C7.20425 11.6615 7.67561 10.5599 8.61846 9.64832ZM21.2826 21.2814C21.2826 21.5521 21.1886 21.7785 21.0012 21.9609C20.8133 22.1432 20.5897 22.2343 20.3291 22.2343H3.62621C3.35542 22.2343 3.12869 22.1432 2.94655 21.9609C2.76415 21.7789 2.67302 21.5521 2.67302 21.2814V11.1561H4.87608C4.66784 11.8124 4.5637 12.4948 4.5637 13.203C4.5637 15.2034 5.29278 16.9089 6.7511 18.3206C8.20959 19.7318 9.96476 20.4377 12.0168 20.4377C13.371 20.4377 14.6209 20.1147 15.7671 19.4689C16.913 18.8227 17.8187 17.9453 18.4858 16.8359C19.1525 15.7264 19.4859 14.5154 19.4859 13.203C19.4859 12.4949 19.3813 11.8126 19.1731 11.1561H21.2827V21.2815H21.2826V21.2814ZM21.2826 7.32793C21.2826 7.63002 21.1784 7.88527 20.9698 8.09357C20.7615 8.30202 20.5064 8.40611 20.2042 8.40611H17.4855C17.1836 8.40611 16.9281 8.30197 16.7199 8.09357C16.5116 7.88527 16.4075 7.63002 16.4075 7.32793V4.75004C16.4075 4.45834 16.5116 4.20578 16.7199 3.99217C16.9282 3.77868 17.1836 3.6718 17.4855 3.6718H20.2042C20.5064 3.6718 20.7616 3.77863 20.9698 3.99217C21.1784 4.20578 21.2826 4.45834 21.2826 4.75004V7.32793Z"
-              fill="white"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_1_114">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_1_108)">
-            <path
-              d="M22.6796 2.32019C21.7998 1.44012 20.7397 1 19.5002 1H4.50012C3.26065 1 2.20058 1.44012 1.32034 2.32019C0.440271 3.20043 0.000152588 4.26044 0.000152588 5.49997V20.4999C0.000152588 21.7393 0.440271 22.7994 1.32034 23.6797C2.20058 24.5599 3.26065 25 4.50012 25H19.5001C20.7395 25 21.7996 24.5599 22.6795 23.6797C23.5597 22.7994 23.9998 21.7394 23.9998 20.4999V5.49997C23.9998 4.26044 23.5596 3.20026 22.6796 2.32019ZM7.31257 21.0936H3.70318V10.2498H7.31257V21.0936ZM6.98464 8.2422C6.6097 8.60159 6.11486 8.78132 5.50021 8.78132H5.48445C4.89077 8.78132 4.40917 8.60159 4.03926 8.2422C3.6693 7.8828 3.48443 7.43754 3.48443 6.9063C3.48443 6.36466 3.67467 5.91666 4.05475 5.56241C4.43511 5.20827 4.92722 5.03112 5.5313 5.03112C6.13544 5.03112 6.61983 5.20827 6.98448 5.56241C7.34902 5.91666 7.53657 6.36466 7.54691 6.9063C7.54686 7.43732 7.35958 7.88258 6.98464 8.2422ZM20.2969 21.0936H16.6876V15.2968C16.6876 13.6616 16.0836 12.8438 14.8752 12.8438C14.4169 12.8438 14.0313 12.9714 13.7189 13.2266C13.4061 13.4817 13.1719 13.7916 13.0158 14.1565C12.9428 14.3438 12.9064 14.6354 12.9064 15.0311V21.0935H9.29704C9.32829 14.552 9.32829 10.9373 9.29704 10.2497H12.9064V11.7807C13.6653 10.5941 14.743 9.99961 16.1409 9.99961C17.3909 9.99961 18.3962 10.4112 19.1566 11.2339C19.917 12.0569 20.2972 13.2706 20.2972 14.8743V21.0936H20.2969Z"
-              fill="#F2F2F2"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_1_108">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-        >
-          <g clip-path="url(#clip0_1_108)">
-            <path
-              d="M22.6796 2.32019C21.7998 1.44012 20.7397 1 19.5002 1H4.50012C3.26065 1 2.20058 1.44012 1.32034 2.32019C0.440271 3.20043 0.000152588 4.26044 0.000152588 5.49997V20.4999C0.000152588 21.7393 0.440271 22.7994 1.32034 23.6797C2.20058 24.5599 3.26065 25 4.50012 25H19.5001C20.7395 25 21.7996 24.5599 22.6795 23.6797C23.5597 22.7994 23.9998 21.7394 23.9998 20.4999V5.49997C23.9998 4.26044 23.5596 3.20026 22.6796 2.32019ZM7.31257 21.0936H3.70318V10.2498H7.31257V21.0936ZM6.98464 8.2422C6.6097 8.60159 6.11486 8.78132 5.50021 8.78132H5.48445C4.89077 8.78132 4.40917 8.60159 4.03926 8.2422C3.6693 7.8828 3.48443 7.43754 3.48443 6.9063C3.48443 6.36466 3.67467 5.91666 4.05475 5.56241C4.43511 5.20827 4.92722 5.03112 5.5313 5.03112C6.13544 5.03112 6.61983 5.20827 6.98448 5.56241C7.34902 5.91666 7.53657 6.36466 7.54691 6.9063C7.54686 7.43732 7.35958 7.88258 6.98464 8.2422ZM20.2969 21.0936H16.6876V15.2968C16.6876 13.6616 16.0836 12.8438 14.8752 12.8438C14.4169 12.8438 14.0313 12.9714 13.7189 13.2266C13.4061 13.4817 13.1719 13.7916 13.0158 14.1565C12.9428 14.3438 12.9064 14.6354 12.9064 15.0311V21.0935H9.29704C9.32829 14.552 9.32829 10.9373 9.29704 10.2497H12.9064V11.7807C13.6653 10.5941 14.743 9.99961 16.1409 9.99961C17.3909 9.99961 18.3962 10.4112 19.1566 11.2339C19.917 12.0569 20.2972 13.2706 20.2972 14.8743V21.0936H20.2969Z"
-              fill="#F2F2F2"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_1_108">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+    <div class="footer-header">
+      <ul class="listmenu">
+        <a href="#home"><li>Home</li></a>
+        <a href="#services"><li>Services</li></a>
+        <a href="#ourworks"><li>Our Works</li></a>
+        <a href="#clients"><li>Clients</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+      <div class="socialmedia">
+        <span class="footer-span-media">Edie</span>
+        <div class="footer-redsocial">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_1_114)">
+              <path
+                d="M23.0949 1.9064C22.4907 1.30204 21.7667 1 20.9232 1H3.07927C2.23548 1 1.51165 1.30215 0.907295 1.9064C0.303048 2.51048 0.00100708 3.23442 0.00100708 4.07804V21.9218C0.00100708 22.7653 0.302994 23.4894 0.907295 24.0935C1.51165 24.6977 2.23564 25 3.07927 25H20.923C21.7663 25 22.4906 24.6977 23.0948 24.0935C23.6991 23.4894 24.0009 22.7653 24.0009 21.9218V4.07804C24.0008 3.23425 23.6991 2.5107 23.0949 1.9064ZM8.61846 9.64832C9.56109 8.737 10.6939 8.28112 12.0169 8.28112C13.35 8.28112 14.488 8.737 15.4308 9.64832C16.3737 10.5598 16.8448 11.6615 16.8448 12.9531C16.8448 14.2446 16.3737 15.3463 15.4308 16.2575C14.488 17.1692 13.3504 17.625 12.0169 17.625C10.694 17.625 9.56125 17.1688 8.61846 16.2575C7.67561 15.3462 7.20425 14.2446 7.20425 12.9531C7.20425 11.6615 7.67561 10.5599 8.61846 9.64832ZM21.2826 21.2814C21.2826 21.5521 21.1886 21.7785 21.0012 21.9609C20.8133 22.1432 20.5897 22.2343 20.3291 22.2343H3.62621C3.35542 22.2343 3.12869 22.1432 2.94655 21.9609C2.76415 21.7789 2.67302 21.5521 2.67302 21.2814V11.1561H4.87608C4.66784 11.8124 4.5637 12.4948 4.5637 13.203C4.5637 15.2034 5.29278 16.9089 6.7511 18.3206C8.20959 19.7318 9.96476 20.4377 12.0168 20.4377C13.371 20.4377 14.6209 20.1147 15.7671 19.4689C16.913 18.8227 17.8187 17.9453 18.4858 16.8359C19.1525 15.7264 19.4859 14.5154 19.4859 13.203C19.4859 12.4949 19.3813 11.8126 19.1731 11.1561H21.2827V21.2815H21.2826V21.2814ZM21.2826 7.32793C21.2826 7.63002 21.1784 7.88527 20.9698 8.09357C20.7615 8.30202 20.5064 8.40611 20.2042 8.40611H17.4855C17.1836 8.40611 16.9281 8.30197 16.7199 8.09357C16.5116 7.88527 16.4075 7.63002 16.4075 7.32793V4.75004C16.4075 4.45834 16.5116 4.20578 16.7199 3.99217C16.9282 3.77868 17.1836 3.6718 17.4855 3.6718H20.2042C20.5064 3.6718 20.7616 3.77863 20.9698 3.99217C21.1784 4.20578 21.2826 4.45834 21.2826 4.75004V7.32793Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_114">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_1_108)">
+              <path
+                d="M22.6796 2.32019C21.7998 1.44012 20.7397 1 19.5002 1H4.50012C3.26065 1 2.20058 1.44012 1.32034 2.32019C0.440271 3.20043 0.000152588 4.26044 0.000152588 5.49997V20.4999C0.000152588 21.7393 0.440271 22.7994 1.32034 23.6797C2.20058 24.5599 3.26065 25 4.50012 25H19.5001C20.7395 25 21.7996 24.5599 22.6795 23.6797C23.5597 22.7994 23.9998 21.7394 23.9998 20.4999V5.49997C23.9998 4.26044 23.5596 3.20026 22.6796 2.32019ZM7.31257 21.0936H3.70318V10.2498H7.31257V21.0936ZM6.98464 8.2422C6.6097 8.60159 6.11486 8.78132 5.50021 8.78132H5.48445C4.89077 8.78132 4.40917 8.60159 4.03926 8.2422C3.6693 7.8828 3.48443 7.43754 3.48443 6.9063C3.48443 6.36466 3.67467 5.91666 4.05475 5.56241C4.43511 5.20827 4.92722 5.03112 5.5313 5.03112C6.13544 5.03112 6.61983 5.20827 6.98448 5.56241C7.34902 5.91666 7.53657 6.36466 7.54691 6.9063C7.54686 7.43732 7.35958 7.88258 6.98464 8.2422ZM20.2969 21.0936H16.6876V15.2968C16.6876 13.6616 16.0836 12.8438 14.8752 12.8438C14.4169 12.8438 14.0313 12.9714 13.7189 13.2266C13.4061 13.4817 13.1719 13.7916 13.0158 14.1565C12.9428 14.3438 12.9064 14.6354 12.9064 15.0311V21.0935H9.29704C9.32829 14.552 9.32829 10.9373 9.29704 10.2497H12.9064V11.7807C13.6653 10.5941 14.743 9.99961 16.1409 9.99961C17.3909 9.99961 18.3962 10.4112 19.1566 11.2339C19.917 12.0569 20.2972 13.2706 20.2972 14.8743V21.0936H20.2969Z"
+                fill="#F2F2F2"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_108">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_1_111)">
+              <path
+                d="M22.6796 0.320191C21.7998 -0.559882 20.7397 -1 19.5002 -1H4.50012C3.26065 -1 2.20058 -0.559882 1.32034 0.320191C0.440271 1.20043 0.000152588 2.26044 0.000152588 3.49997V18.4999C0.000152588 19.7393 0.440271 20.7994 1.32034 21.6797C2.20058 22.5599 3.26065 23 4.50012 23H19.5001C20.7395 23 21.7996 22.5599 22.6795 21.6797C23.5597 20.7994 23.9998 19.7394 23.9998 18.4999V3.49997C23.9998 2.26044 23.5596 1.20026 22.6796 0.320191ZM18.3595 8.23444C18.3699 8.32819 18.3752 8.46856 18.3752 8.65639C18.3752 9.53143 18.2475 10.409 17.9924 11.289C17.7373 12.1694 17.3466 13.0131 16.8204 13.8204C16.2947 14.6275 15.6671 15.3413 14.938 15.961C14.2087 16.5805 13.3339 17.0756 12.3128 17.4451C11.2922 17.8151 10.1983 18.0002 9.03172 18.0002C7.21937 18.0002 5.5423 17.5103 4.00057 16.5315C4.25057 16.5626 4.51112 16.5783 4.78181 16.5783C6.29228 16.5783 7.65166 16.1096 8.86004 15.1718C8.15182 15.1617 7.51889 14.9431 6.96166 14.5156C6.40426 14.0885 6.01635 13.5469 5.79755 12.8907C6.06828 12.9322 6.27138 12.9529 6.40677 12.9529C6.63592 12.9529 6.90162 12.9113 7.20361 12.8282C6.44322 12.6821 5.80269 12.3049 5.28185 11.6955C4.7609 11.086 4.50051 10.3908 4.50051 9.60958V9.57833C5.05243 9.83856 5.57327 9.97395 6.06292 9.98452C5.11499 9.34897 4.64105 8.43764 4.64105 7.25017C4.64105 6.66677 4.79198 6.11474 5.09408 5.59389C5.91691 6.60438 6.91711 7.41156 8.09402 8.0157C9.27105 8.61978 10.5316 8.95849 11.8753 9.03133C11.8233 8.83343 11.7972 8.58333 11.7972 8.28134C11.7972 7.37495 12.1175 6.60165 12.7582 5.96095C13.3987 5.32031 14.1722 4.99988 15.0783 4.99988C16.0368 4.99988 16.8339 5.34374 17.4692 6.03128C18.188 5.89588 18.8862 5.63012 19.5631 5.23444C19.3028 6.03631 18.8181 6.64576 18.1101 7.06245C18.787 6.96854 19.417 6.79155 20.0002 6.53116C19.5628 7.19779 19.0157 7.76548 18.3595 8.23444Z"
+                fill="#F2F2F2"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_111">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
       </div>
-    </div>
-    <div class="footer-join">
-      <span class="footer-span">Want us to contact you?</span>
-      <div class="input-join">
-        <input type="text" placeholder="Email" />
-        <button>Join</button>
+      <div class="footer-join">
+        <span class="footer-span">Want us to contact you?</span>
+        <div class="input-join-footer">
+          <input type="text" placeholder="Email" />
+          <button>Join</button>
+        </div>
       </div>
     </div>
     <span class="span-git"
